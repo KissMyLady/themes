@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7b3415-a535-4b50-8adf-659f383237d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/drake.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlclient-1.4.6-cp38-cp38-win_amd64.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opt-autumnus.css" beforeDir="false" afterPath="$PROJECT_DIR$/opt-autumnus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opt-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/opt-dark.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,9 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="22g0LOceYuPHGxBpH8UdjmilWhN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -38,6 +44,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mylady\AppData\Roaming\Typora\themes" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +64,8 @@
       <workItem from="1650438973283" duration="597000" />
       <workItem from="1650441740314" duration="1252000" />
       <workItem from="1650730906193" duration="130000" />
-      <workItem from="1650758839205" duration="1139000" />
+      <workItem from="1650758839205" duration="1375000" />
+      <workItem from="1651218615674" duration="4830000" />
     </task>
     <servers />
   </component>
@@ -71,5 +83,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650760208064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1650760208064" />
   </component>
 </project>

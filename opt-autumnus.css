@@ -32,17 +32,13 @@
 	--base-borderb: 1px dashed hsl(0, 100%, 65%);
 	--opt-borderb: 1px dashed hsl(215, 100%, 65%);
 
-	--base-font: "Poppins", -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
-
-	--title-font: "EB Garamond", Georgia, "Nimbus Roman No9 L", "Noto Serif CJK SC", "Songti SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
-
-	--em-font: "EB Garamond", Georgia, "Nimbus Roman No9 L", "Noto Serif CJK SC"， "Songti SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
-
-	--quota-font: "EB Garamond", Baskerville, Georgia, "Liberation Serif", "TW-Kai", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
-
-	--monospace: "Cascadia code", "Sarasa Term SC", Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono", Courier;
-
-	--lishu: "金梅新細隸國際碼";
+	--base-font: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
+	--title-font: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
+	--em-font: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
+	--quota-font: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
+	--monospace: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
+	--lishu: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
+	font-family: "Fira Code", "微软雅黑","PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 html {
@@ -58,7 +54,7 @@ body,
 	font-family: var(--base-font);
 	font-weight: 400;
 	font-size: 16px;
-	font-size: 1rem;
+	/*font-size: 1rem;*/
 	line-height: 2rem;
 	background: var(--write-bg);
 	color: var(--text-color);
@@ -198,29 +194,29 @@ content {
 }
 
 
-.md-toc-h1:before,
-.md-toc-h2::before,
-.md-toc-h3::before,
-.md-toc-h4::before,
-.md-toc-h5::before,
-.md-toc-h6::before {
-	color: initial;
-	display: table-cell;
-	vertical-align: baseline;
-	color: var(--text-color);
-}
+/*.md-toc-h1:before,*/
+/*.md-toc-h2::before,*/
+/*.md-toc-h3::before,*/
+/*.md-toc-h4::before,*/
+/*.md-toc-h5::before,*/
+/*.md-toc-h6::before {*/
+/*	color: initial;*/
+/*	display: table-cell;*/
+/*	vertical-align: baseline;*/
+/*	color: var(--text-color);*/
+/*}*/
 
-.md-toc-h1:before,
-.md-toc-h2::before {
-	text-align-last: justify;
-}
+/*.md-toc-h1:before,*/
+/*.md-toc-h2::before {*/
+/*	text-align-last: justify;*/
+/*}*/
 
-.md-toc-h3::before,
-.md-toc-h4::before,
-.md-toc-h5::before,
-.md-toc-h6::before {
-	text-align: right;
-}
+/*.md-toc-h3::before,*/
+/*.md-toc-h4::before,*/
+/*.md-toc-h5::before,*/
+/*.md-toc-h6::before {*/
+/*	text-align: right;*/
+/*}*/
 
 .md-toc-h5,
 .md-toc-h6 {
@@ -323,34 +319,35 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--title-color);
+	/*color: var(--title-color);*/
+	color: hsl(0, 8%, 69%);
 }
 
 /* 让每一级标题更加明显，添加标注 */
 #write h1 {
-	margin-top: 6rem;
+	/*margin-top: 6rem;*/
 	margin-bottom: 3rem;
-	text-align: center;
+	/*text-align: center;*/
 }
 
-#write h1:before,
-#write h1:after {
-	content: "";
-	display: block;
-	position: relative;
-	margin: 1rem auto;
-	padding: 1px;
-}
+/*#write h1:before,*/
+/*#write h1:after {*/
+/*	content: "";*/
+/*	display: block;*/
+/*	position: relative;*/
+/*	margin: 1rem auto;*/
+/*	padding: 1px;*/
+/*}*/
 
-#write h1::before {
-	border-top: 4px solid var(--title-color);
-	border-bottom: 1px solid var(--title-color);
-}
+/*#write h1::before {*/
+/*	border-top: 4px solid var(--title-color);*/
+/*	border-bottom: 1px solid var(--title-color);*/
+/*}*/
 
-#write h1::after {
-	border-bottom: 4px solid var(--title-color);
-	border-top: 1px solid var(--title-color);
-}
+/*#write h1::after {*/
+/*	border-bottom: 4px solid var(--title-color);*/
+/*	border-top: 1px solid var(--title-color);*/
+/*}*/
 
 #write h1,
 #write h2 {
@@ -386,38 +383,38 @@ h6 {
 #write h6 {
 	font-family: var(--base-font);
 	font-weight: 600;
-	margin: 3rem 0;
+	margin: 1rem 0;
 	margin-bottom: 1.5rem;
 }
 
-#write h3::before,
-#write h4::before,
-#write h5::before,
-#write h6::before {
-	font-size: .9rem !important;
-	vertical-align: bottom;
-	margin-right: .5rem;
-	padding: 2px;
-	border-radius: 3px;
-	background: var(--text-color);
-	color: var(--write-bg);
-}
+/*#write h3::before,*/
+/*#write h4::before,*/
+/*#write h5::before,*/
+/*#write h6::before {*/
+/*	font-size: .9rem !important;*/
+/*	vertical-align: bottom;*/
+/*	margin-right: .5rem;*/
+/*	padding: 2px;*/
+/*	border-radius: 3px;*/
+/*	background: var(--text-color);*/
+/*	color: var(--write-bg);*/
+/*}*/
 
-#write h3::before {
-	content: "H3";
-}
+/*#write h3::before {*/
+/*	content: "H3";*/
+/*}*/
 
-#write h4::before {
-	content: "H4";
-}
+/*#write h4::before {*/
+/*	content: "H4";*/
+/*}*/
 
-#write h5::before {
-	content: "H5";
-}
+/*#write h5::before {*/
+/*	content: "H5";*/
+/*}*/
 
-#write h6::before {
-	content: "H6";
-}
+/*#write h6::before {*/
+/*	content: "H6";*/
+/*}*/
 
 p {
 	margin-bottom: 1rem;
@@ -498,7 +495,7 @@ pre tt,
 .md-fences,
 .CodeMirror pre {
 	font-family: var(--code-font);
-	font-size: .9rem;
+	/*font-size: .9rem;*/
 	line-height: 1.5rem;
 	padding: 2px 4px;
 	border-radius: 5px;
@@ -507,7 +504,8 @@ pre tt,
 
 /* code style */
 code {
-	background-color: var(--code-bg);
+	/*background-color: var(--code-bg);*/
+	background-color: #000;
 }
 
 kbd,
@@ -592,10 +590,11 @@ ol {
 /* 块/段落引用 */
 
 blockquote {
+	border-radius: 15px;
 	background: var(--quota-bg);
-	margin: 2rem -3.8rem;
-	padding: 2rem 6rem;
-	font-size: 1.2rem;
+	/*margin: 2rem -3.8rem;*/
+	padding: 1.5rem 2.5rem;
+	font-size: 1.3rem;
 }
 
 blockquote blockquote {
@@ -611,8 +610,9 @@ blockquote p {
 }
 
 blockquote p {
-	color: var(--quota-color);
-	line-height: 1.75rem;
+	/*color: var(--quota-color);*/
+	color: hsl(0, 57%, 68%);
+	/*line-height: 1.75rem;*/
 }
 
 /* 一致化 horizontal rule */
@@ -626,7 +626,7 @@ hr {
 /* img */
 
 #write img {
-	margin: 40px auto;
+	margin: 10px auto;
 	box-shadow: 0px 20px 40px 1px hsla(0, 0%, 0%, 0.3);
 	border-radius: 5px;
 }
@@ -725,7 +725,7 @@ figure>table {
 
 	blockquote {
 		background: var(--quota-bg);
-		margin: 2rem -4rem;
+		/*margin: 2rem -4rem;*/
 		padding: 2rem 4rem;
 	}
 
@@ -762,7 +762,6 @@ figure>table {
 }
 
 @media screen and (min-width: 1100px) {
-
 	body,
 	#footer-word-count-info,
 	body.pin-outline,
@@ -771,26 +770,20 @@ figure>table {
 	.pin-outline footer {
 		background: var(--write-bg);
 	}
-
-
 	.typora-node #write {
 		min-height: calc(100% - 6rem);
 	}
-
-
 	#write {
 		padding: 40px 60px;
 		background: var(--write-bg);
-		margin: 3rem auto 3rem;
+		margin: 0.5rem auto 3rem;
 		border-width: 0 1px;
 	}
-
 	.pin-outline #write {
 		border: 0;
 		padding-left: 60px;
 		padding-right: 60px;
 	}
-
 	footer {
 		background-color: transparent;
 	}

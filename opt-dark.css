@@ -7,7 +7,9 @@
     --mark-bg: hsl(100, 100%, 85%);
     --codeb-bg: hsl(200, 19%, 18%);
     --code-bg: hsl(0, 100%, 5%);
+    /*--quota-bg: hsl(0, 0%, 5%);*/
     --quota-bg: hsl(0, 0%, 5%);
+
     --thead-bg: hsl(0, 0%, 10%);
     --tbody-bg: hsl(0, 0%, 4%);
     --text-color: hsl(0, 0%, 80%);
@@ -155,7 +157,7 @@ footer.stopselect.ty-footer {
 }
 
 .cm-s-inner .cm-keyword {
-    color: rgba(199, 146, 234, 1);
+    color: rgb(178, 90, 255);
 }
 
 .cm-s-inner .cm-operator {
@@ -187,19 +189,19 @@ footer.stopselect.ty-footer {
 }
 
 .cm-s-inner .cm-string {
-    color: #C3E88D;
+    color: #b9aa59;
 }
 
 .cm-s-inner .cm-string-2 {
-    color: #80CBC4;
+    color: rgb(233 134 63);
 }
 
 .cm-s-inner .cm-comment {
-    color: #546E7A;
+    color: #447b94;
 }
 
 .cm-s-inner .cm-variable {
-    color: #82B1FF;
+    color: rgb(229 228 228);
 }
 
 .cm-s-inner .cm-tag {
@@ -215,7 +217,7 @@ footer.stopselect.ty-footer {
 }
 
 .cm-s-inner .cm-property {
-    color: #80CBAE;
+    color: #f9c259;
 }
 
 .cm-s-inner .cm-qualifier {
