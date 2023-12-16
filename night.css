@@ -25,10 +25,13 @@
     --primary-color: #6dc1e7;
 
     --rawblock-edit-panel-bd: #333;
+
+    --search-select-bg-color: #428bca;
 }
 
 html {
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
 }
 
 html,
@@ -43,6 +46,19 @@ body {
 
 #write {
     max-width: 914px;
+}
+
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
 }
 
 html,
@@ -61,6 +77,10 @@ div.code-tooltip,
     background: #333;
 }
 
+.native-window #md-notification {
+    border: 1px solid #70717d;
+}
+
 .popover.bottom > .arrow:after {
     border-bottom-color: #333;
 }
@@ -71,7 +91,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
 }
 
 hr {
@@ -236,10 +256,6 @@ iframe,
     /* 24px */
 }
 
-li > blockquote {
-	margin-bottom: 0;
-}
-
 audio:not([controls]) {
     display: none;
 }
@@ -309,9 +325,14 @@ code,
 kbd,
 tt,
 var {
-    background: rgba(0, 0, 0, 0.05);
-    font-size: 0.875rem;
+    font-size: 0.875em;
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+code,
+tt,
+var {
+    background: rgba(0, 0, 0, 0.05);
 }
 
 kbd {
@@ -600,17 +621,11 @@ h6.md-focus .md-attr,
 
 .md-comment {
     color: #5a95e3;
-    opacity: 1;
+    opacity: 0.8;
 }
 
-.md-inline-math g,
 .md-inline-math svg {
-    stroke: #b8bfc6 !important;
-    fill: #b8bfc6 !important;
-}
-
-[md-inline='inline_math'] {
-    color: #9CB2E9;
+    color: #b8bfc6;
 }
 
 #math-inline-preview .md-arrow:after {
@@ -666,6 +681,7 @@ h6.md-focus .md-attr,
 .context-menu.dropdown-menu .divider,
 .dropdown-menu .divider {
     background-color: #777777;
+    opacity: 1;
 }
 
 footer {
@@ -728,6 +744,10 @@ footer {
 .modal-footer .btn-default:not(:hover) {
     border: 1px solid;
     border-color: transparent;
+}
+
+.btn-primary {
+    color: white;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
@@ -927,7 +947,10 @@ footer.ty-footer {
     height: 21px;
 }
 
-.ty-preferences .nav-group-item.active {
+.ty-preferences .nav-group-item.active,
+.export-item.active,
+.export-items-list-control,
+.export-detail {
     background: var(--item-hover-bg-color);
 }
 
@@ -968,5 +991,27 @@ footer.ty-footer {
 }
 
 .nav-group-item:active {
-    background-color: #474d54;
+    background-color: #474d54 !important;
+}
+
+.md-search-hit {
+    background: rgba(199, 140, 60, 0.81);
+    color: #eee;
+}
+
+.md-search-hit * {
+    color: #eee;
+}
+
+#md-searchpanel input {
+    color: white;
+}
+
+.modal-backdrop.in {
+    opacity: 1;
+    backdrop-filter: blur(1px);
+}
+
+.clear-btn-icon {
+    top: 8px;
 }
