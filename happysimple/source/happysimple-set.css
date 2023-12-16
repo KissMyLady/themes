@@ -374,47 +374,47 @@ span[alt]{
     font-weight: var(--emp-font-weight);
     line-height: var(--emp-line-height);
 }
-span[alt='solid'] {
-    text-decoration-line: underline;
-    text-decoration-color: var(--emp-line-color);
-    text-decoration-style: solid;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 2px;
-    text-decoration-skip-ink: none;
-}
-span[alt='dashed'] {
-    text-decoration-line: underline;
-    text-decoration-color: var(--emp-line-color);
-    text-decoration-style: dashed;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 2px;
-    text-decoration-skip-ink: none;
-}
-span[alt='dotted'] {
-    text-decoration-line: underline;
-    text-decoration-color: var(--emp-line-color);
-    text-decoration-style: dotted;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 3px;
-    text-decoration-skip-ink: none;
-}
-span[alt='wavy'] {
-    text-decoration-line: underline;
-    text-decoration-color: var(--emp-line-color);
-    text-decoration-style: wavy;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 2px;
-    text-decoration-skip-ink: none;
-}
-span[alt='delete'] {
-    text-decoration-line: line-through;
-    text-decoration-color: var(--emp-line-color);
-    text-decoration-style: solid;
-    text-decoration-thickness: 2px;
-}
-span[alt='shadow']{
-    text-shadow: 1px 1px 2px #FC0;
-}
+/*span[alt='solid'] {*/
+/*    text-decoration-line: underline;*/
+/*    text-decoration-color: var(--emp-line-color);*/
+/*    text-decoration-style: solid;*/
+/*    text-underline-offset: 2px;*/
+/*    text-decoration-thickness: 2px;*/
+/*    text-decoration-skip-ink: none;*/
+/*}*/
+/*span[alt='dashed'] {*/
+/*    text-decoration-line: underline;*/
+/*    text-decoration-color: var(--emp-line-color);*/
+/*    text-decoration-style: dashed;*/
+/*    text-underline-offset: 2px;*/
+/*    text-decoration-thickness: 2px;*/
+/*    text-decoration-skip-ink: none;*/
+/*}*/
+/*span[alt='dotted'] {*/
+/*    text-decoration-line: underline;*/
+/*    text-decoration-color: var(--emp-line-color);*/
+/*    text-decoration-style: dotted;*/
+/*    text-underline-offset: 2px;*/
+/*    text-decoration-thickness: 3px;*/
+/*    text-decoration-skip-ink: none;*/
+/*}*/
+/*span[alt='wavy'] {*/
+/*    text-decoration-line: underline;*/
+/*    text-decoration-color: var(--emp-line-color);*/
+/*    text-decoration-style: wavy;*/
+/*    text-underline-offset: 2px;*/
+/*    text-decoration-thickness: 2px;*/
+/*    text-decoration-skip-ink: none;*/
+/*}*/
+/*span[alt='delete'] {*/
+/*    text-decoration-line: line-through;*/
+/*    text-decoration-color: var(--emp-line-color);*/
+/*    text-decoration-style: solid;*/
+/*    text-decoration-thickness: 2px;*/
+/*}*/
+/*span[alt='shadow']{*/
+/*    text-shadow: 1px 1px 2px #FC0;*/
+/*}*/
 
 /* 高亮 */
 #write span[md-inline="highlight"] mark{
@@ -585,23 +585,24 @@ hr {
 /* ----------------------------------------- 代码块 --------------------------------------- */
 /* 代码块顶栏 */
 .md-fences {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
+    padding-top: 3px;
     background-color: var(--code-top-background-color);
     border: var(--code-border);
     border-radius: var(--code-border-radius);
 }
-.md-fences::before {
-    position: absolute;
-    left: 10px;
-    top: 8px;
-    content: '';
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: rgb(252, 98, 93);
-    box-shadow: 25px 0px rgb(253, 188, 64),
-                50px 0px rgb(53, 205, 75);
-}
+/*.md-fences::before {*/
+/*    position: absolute;*/
+/*    left: 10px;*/
+/*    top: 8px;*/
+/*    content: '';*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    border-radius: 50%;*/
+/*    background: rgb(252, 98, 93);*/
+/*    box-shadow: 25px 0px rgb(253, 188, 64),*/
+/*                50px 0px rgb(53, 205, 75);*/
+/*}*/
 
 /* 代码块主体 */
 .cm-s-inner.CodeMirror {

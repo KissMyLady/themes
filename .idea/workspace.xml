@@ -14,46 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7b3415-a535-4b50-8adf-659f383237d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/themes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/themes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autumnus-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/autumnus-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autumnus-fluence.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autumnus.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cobalt.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drake.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluent.css" beforeDir="false" afterPath="$PROJECT_DIR$/fluent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook-azure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook-slate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook-teal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/github.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heti.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maize.css" beforeDir="false" afterPath="$PROJECT_DIR$/maize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsprint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsprint/pt-serif-v9-latin-700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsprint/pt-serif-v9-latin-700italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsprint/pt-serif-v9-latin-italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsprint/pt-serif-v9-latin-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/night.css" beforeDir="false" afterPath="$PROJECT_DIR$/night.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/night/mermaid.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/night/mermaid.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old-themes/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/old-themes/github.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opt-autumnus.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opt-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/opt-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opt-fluence.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixyll.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qd-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qd-fluence.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qd-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/techo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ursine-polar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ursine-umbra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whitey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/happysimple/source/happysimple-set.css" beforeDir="false" afterPath="$PROJECT_DIR$/happysimple/source/happysimple-set.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +85,7 @@
       <workItem from="1651372723277" duration="1953000" />
       <workItem from="1652080174733" duration="101000" />
       <workItem from="1702723325595" duration="212000" />
-      <workItem from="1702723540242" duration="4584000" />
+      <workItem from="1702723540242" duration="5805000" />
     </task>
     <servers />
   </component>
