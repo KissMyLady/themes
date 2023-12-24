@@ -14,8 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7b3415-a535-4b50-8adf-659f383237d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/happysimple/source/happysimple-set.css" beforeDir="false" afterPath="$PROJECT_DIR$/happysimple/source/happysimple-set.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/400i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/600i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/700i.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opt-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/opt-dark_v2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +54,25 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/t14_mylady/AppData/Roaming/Typora/themes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/t14_mylady/AppData/Roaming/Typora/themes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\t14_mylady\AppData\Roaming\Typora\themes" />
       <recent name="C:\Users\mylady\AppData\Roaming\Typora\themes" />
     </key>
   </component>
@@ -85,7 +95,9 @@
       <workItem from="1651372723277" duration="1953000" />
       <workItem from="1652080174733" duration="101000" />
       <workItem from="1702723325595" duration="212000" />
-      <workItem from="1702723540242" duration="5805000" />
+      <workItem from="1702723540242" duration="5948000" />
+      <workItem from="1703390639750" duration="1395000" />
+      <workItem from="1703396991332" duration="738000" />
     </task>
     <servers />
   </component>

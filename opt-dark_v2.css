@@ -257,3 +257,8 @@ footer.stopselect.ty-footer {
 .md-fences .code-tooltip {
     background-color: #263238;
 }
+
+/*a标签*/
+span > a {
+    color: #af7272;
+}

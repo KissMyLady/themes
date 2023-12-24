@@ -822,6 +822,7 @@ footer {
 #typora-sidebar {
     font-size: inherit;
     font-family: var(--title-font);
+    border-right: 2px solid #6a5e7938;
 }
 
 .sidebar-tabs {
@@ -1223,4 +1224,8 @@ a.ty-link {
 .cm-s-inner .cm-header, .cm-s-inner.cm-header {
     color: #FFD760;
     font-weight: normal;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #348cb94d;
 }

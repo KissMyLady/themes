@@ -717,6 +717,7 @@ div.code-tooltip-content {
     /*background: #313335;*/
     background: rgb(244, 247, 248);
     border-right: 1px solid #313335;
+    /*border-right: 4px solid #8b19c926;*/
 }
 .cm-s-inner .CodeMirror-guttermarker {
     color: #FFEE80;
