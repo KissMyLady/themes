@@ -1,3 +1,14 @@
+/* 引入 Happysimple 主题的字体 */
+/*@import '../happysimple/source/font/fonts.css';*/
+
+/* 可选字体：
+   1.Windows自带字体, 例如: Times New Roman, Consolas, Microsoft YaHei. 详情见"C:\Windows\Fonts"
+   2.阿里妈妈普惠体：Ali_PuHuiTi (字粗:100、200、300、...、900)
+   3.思源黑体：SiYuan_HeiTi (字粗:100、200、300、...、700)
+   4.霞鹜文楷：XiaWuWenKai (字粗:100、200、300)
+   5.站酷仓耳渔阳体: ZhanKu_YvYangTi (字粗:100、200、300、400、500)
+*/
+
 @font-face {
     font-family: 'JetBrains Mono';
     src: local('JetBrains Mono'),
@@ -33,14 +44,21 @@
 
 /*快速自定义配置*/
 :root {
-    --monospace: "JetBrains Mono", "Iosevka Curly",  "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan; /*代码字体*/
-    --text-font: var(--monospace); /*正文字体*/
+    /*代码字体
+    "JetBrains Mono"  => 会改变符号
+    "Cascadia Code"   => 会改变符号
+    Fira Mono
+    */
+    --monospace: "JetBrains Mono", "Iosevka Curly",  "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan;
+    --text-font: var(--monospace);  /*正文字体*/
     --title-font: var(--monospace); /*标题字体*/
     --latex-font: var(--monospace); /*LaTeX字体(不含英语)*/
+
     --text-line-height: 1.6; /*正文行间距*/
     --code-line-height: 1.6; /*代码块行间距*/
     --p-spacing: 0.8rem; /*段间距*/
-    --file-tree-text-size: 1.1rem; /*文件树大小*/
+    /*--file-tree-text-size: 1.1rem; !*文件树大小*!*/
+    --file-tree-text-size: 1rem; /*文件树大小*/
     --toc-text-size: 1rem; /*大纲大小*/
-    --text-size: 14px; /*字体大小 推荐配置: 应用设置-外观-字体大小*/
+    --text-size: 15px; /*字体大小 推荐配置: 应用设置-外观-字体大小*/
 }

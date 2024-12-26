@@ -14,17 +14,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7b3415-a535-4b50-8adf-659f383237d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autumnus-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake-ayu.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake-ayu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake-black.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drake-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drake.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/400i.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/600i.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/700i.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opt-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/opt-dark_v2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake-purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/drake/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsprint.css" beforeDir="false" afterPath="$PROJECT_DIR$/newsprint.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/night.css" beforeDir="false" afterPath="$PROJECT_DIR$/night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/night/codeblock.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/night/codeblock.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/night/mermaid.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/night/mermaid.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/night/sourcemode.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/night/sourcemode.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-themes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/old-themes/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-themes/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/old-themes/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-themes/newsprint.css" beforeDir="false" afterPath="$PROJECT_DIR$/old-themes/newsprint.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-themes/night.css" beforeDir="false" afterPath="$PROJECT_DIR$/old-themes/night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opt-dark_v2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/lato-v14-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/lato-v14-latin-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/lato-v14-latin-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/lato-v14-latin-900italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/merriweather-v19-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/merriweather-v19-latin-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/merriweather-v19-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixyll/merriweather-v19-latin-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whitey.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +79,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/t14_mylady/AppData/Roaming/Typora/themes&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -97,12 +117,37 @@
       <workItem from="1702723325595" duration="212000" />
       <workItem from="1702723540242" duration="5948000" />
       <workItem from="1703390639750" duration="1395000" />
-      <workItem from="1703396991332" duration="738000" />
+      <workItem from="1703396991332" duration="991000" />
+      <workItem from="1703398161228" duration="1366000" />
+      <workItem from="1703417692252" duration="306000" />
+      <workItem from="1704277046783" duration="6000" />
+      <workItem from="1705567536591" duration="3176000" />
+      <workItem from="1705579696912" duration="345000" />
+      <workItem from="1705660742091" duration="1831000" />
+      <workItem from="1705760104903" duration="39000" />
+      <workItem from="1705808977423" duration="742000" />
+      <workItem from="1708477317022" duration="3000" />
+      <workItem from="1712450667782" duration="213000" />
+      <workItem from="1717427520362" duration="1000" />
+      <workItem from="1732447247941" duration="5000" />
+      <workItem from="1735222651089" duration="573000" />
+      <workItem from="1735224166881" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

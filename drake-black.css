@@ -818,6 +818,7 @@ footer {
 #typora-sidebar {
     font-size: inherit;
     font-family: var(--title-font);
+    border-right: 2px solid rgba(187, 153, 243, 0.22);
 }
 
 .sidebar-tabs {
@@ -925,6 +926,10 @@ div.code-tooltip-content {
 
 .CodeMirror-scroll::-webkit-scrollbar {
     display: none;
+}
+/*右侧滑动 颜色*/
+::-webkit-scrollbar-thumb{
+    background: rgba(183, 77, 246, 0.3);
 }
 
 .file-list-item-summary {
